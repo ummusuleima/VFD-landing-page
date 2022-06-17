@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/plugins/magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="assets/plugins/owlcarousel/owl.carousel.min.css">
+    <link href="assets/css/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 </head>
@@ -50,13 +51,13 @@
                     
                     <div class="col-lg-10 col-sm-9 col-7 d-flex align-items-center justify-content-end position-static">
                         <div class="nav-wrapper w-100 d-flex justify-content-end justify-content-lg-center" >
-                   
+                    <!-- <div id="mainNav "> -->
                             <ul class="nav">
                                 <li><a class="current" href="#home">Home</a></li>
                                 <li><a href="#about">About  SoftVFD</a></li>
                                 <li><a href="#whyvfd">Why SoftVFD</a></li>
                                 <li><a href="#touse">How to use </a></li>
-                                <li><a href="#pricing">Pricing</a></li>
+                                <li><a href="#portfolio">Pricing</a></li>
                                 <li><a href="#faq">FAQ</a></li>
                                 <li><a href="#contact">Contact</a></li>
                                 <li class="nav-item">
@@ -64,7 +65,7 @@
                                     Login
                                         </a></li>
                             </ul>
-                        
+                        <!-- </div> -->
                         </div>
                         
                        
@@ -268,100 +269,209 @@
 
         <!-- *****************END SERVICE************** -->
 
-    
+
 
 
 <!-- *********SECTION PRICING************ -->
 
-
-    <section class=" " data-bg-img="assets/img/media/price-bg.png" id="pricing" >
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
+            <section id="portfolio" class="portfolio">
+            <div class="container" data-aos="fade-up">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-12 ">
                     <div class="section-title text-center">
                         <h2>Check Our Pricing Plan</h2>
                         <p> Choose the best plan that will suits you and fulfill the needs of the system.<br>
                             </p>
                     </div>
+                      <ul id="portfolio-flters">
+                      <li data-filter=".filter-vfd" class="filter-active">VFD</li>
+                      <li data-filter=".filter-vsd">VSD</li>
+                     
+                    </ul>
+                  </div>
                 </div>
-            </div>
-            <div class="row mb-4">
-                <div class="col-xl-6 col-sm-6">
-                    <div class="price-box active">
-                        <div class="price-head">
-                         
-                            <div class="plan">
-                                <h5>Basic Plan</h5>
-                            </div>
-                        </div>
-                        <div class="price-body">
-                            <div class="price"><span class="currency"></span> <span class="value">55,000/=</span> <span
-                                class="duration">/yrs</span></div>
-                            
-                            <ul >
-                                <li>● Installation and Configuration Fee</li>
-                                <li>● Annual Subscription Fee</li>
-                                <li>● 1st Year - Free</li>
-                                <li>● 2nd Year onward -</li>
-                                <li>● Sales and receipt printing 500 receipts per year</li>
-                                <li>● Unlimited products</li>
-                                <li>● Unlimited customer details </li>
-                                <li>● Manage single store/branch </li>
-                                <li>● Multi-users (Two users)  </li>
-                                <li>● Basic reporting </li>
-                                <li>● Automatic Z-Report (Email - Option)  </li>
-                                <li>● Daily Sales Summary Mobile SMS  </li>
-                                
-                                
-                                <var><var></var></var>
-                            </ul>
-                            <a href="" class="btn btn-black btn-sm btn-shadow"><img
-                                    src="assets/img/icons/btn-svg.svg" alt="" class="svg">buy now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-sm-6">
-                    <div class="price-box active">
-                        <div class="price-head">
+        
+                <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        
+                  <div class="col-xl-4 col-sm-6 portfolio-item filter-vfd ">
+                      <div class="price-box active ">
+                          <div class="price-head">
                            
-                            <div class="plan">
-                                <h5>Premium Plan</h5>
-                            </div>
-                        </div>
-                        <div class="price-body">
-                            <div class="price"><span class="currency"></span> <span class="value">75,000/= </span> <span
-                                    class="duration">/yrs</span></div>
-                            
-                            <ul>
-                                <li>Installation and Configuration Fee</li>
-                                <li>● Annual Subscription Fee</li>
-                                <li>● 1st Year – Free </li>
-                                <li>● 2nd Year onward –</li>
-                                <li>● Sales and receipt printing Unlimited receipts per year</li>
-                                <li>● Unlimited products</li>
-                                <li>● Unlimited customer details </li>
-                                <li>● Manage multiple store/branch </li>
-                                <li>● Multi-users (Three users) </li>
-                                <li>● Basic reporting</li>
-                                <li>● Automatic Z-Report (Email - Option) </li>
-                                <li>● Daily Sales Summary Mobile SMS </li>
-
-
-
-
-
-
-                            </ul><a href="" class="btn btn-black btn-sm btn-shadow"><img
-                                    src="assets/img/icons/btn-svg.svg" alt="" class="svg">buy now</a>
-                        </div>
-                    </div>
+                              <div class="plan">
+                                  <h5>Basic Plan</h5>
+                              </div>
+                          </div>
+                          <div class="price-body">
+                              <div class="price"><span class="currency"></span> <span class="value">55,000/=</span> <span
+                                  class="duration">/yrs</span></div>
+                              
+                              <ul >
+                                  <li>● Installation and Configuration Fee</li>
+                                  <li>● Annual Subscription Fee</li>
+                                  <li>● 1st Year - Free</li>
+                                  <li>● 2nd Year onward -</li>
+                                  <li>● Sales and receipt printing 500 receipts per year</li>
+                                  <li>● Unlimited products</li>
+                                  <li>● Unlimited customer details </li>
+                                  <li>● Manage single store/branch </li>
+                                  <li>● Multi-users (Two users)  </li>
+                                  <li>● Basic reporting </li>
+                                  <li>● Automatic Z-Report (Email - Option)  </li>
+                                  <li>● Daily Sales Summary Mobile SMS  </li>
+                                  
+                                  
+                                  <var><var></var></var>
+                              </ul>
+                              <a href="" class="btn btn-black btn-sm btn-shadow"><img
+                                      src="assets/img/icons/btn-svg.svg" alt="" class="svg">buy now</a>
+                          </div>
+                      </div>
+                  </div>
+        
+                  <div class="col-xl-4 col-sm-6 portfolio-item filter-vfd ">
+                      <div class="price-box  active">
+                          <div class="price-head">
+                             
+                              <div class="plan">
+                                  <h5>Premium Plan</h5>
+                              </div>
+                          </div>
+                          <div class="price-body">
+                              <div class="price"><span class="currency"></span> <span class="value">75,000/= </span> <span
+                                      class="duration">/yrs</span></div>
+                              
+                              <ul>
+                                  <li>● Solution Application </li>
+                                  <li>● Installation and Configuration Fee</li>
+                                  <li>● Annual Subscription Fee</li>
+                                  <li>● 1st Year – Free </li>
+                                  <li>● Sales and receipt printing Unlimited receipts per year</li>
+                                  <li>● Unlimited products</li>
+                                  <li>● Unlimited customer details </li>
+                                  <li>● Multi-users (Three users) </li>
+                                  <li>● Basic reporting</li>
+                                  <li>● Automatic Z-Report (Email - Option) </li>
+                                  <li>● Daily Sales Summary Mobile SMS </li>
+                                  <li>● Bluetooth Printer </li>
+                                  <li>● Receipts unlimited </li>
+                                  <li>●  Web App access.</li>
+                                  <li>●  Number of Branches 1</li>
+                                  <li>●  License renew per year</li>
+      
+      
+                              </ul><a href="" class="btn btn-black btn-sm btn-shadow"><img
+                                      src="assets/img/icons/btn-svg.svg" alt="" class="svg">buy now</a>
+                          </div>
+                      </div>
+                  </div>
+        
+                  <div class="col-xl-4 col-sm-6 portfolio-item filter-vfd ">
+                      <div class="price-box active ">
+                          <div class="price-head">
+                           
+                              <div class="plan">
+                                  <h5>Platnum Plan</h5>
+                              </div>
+                          </div>
+                          <div class="price-body">
+                              <div class="price"><span class="currency"></span> <span class="value">75,000/=</span> <span
+                                  class="duration">/yrs</span></div>
+                              
+                                  <ul >
+                                      <li>● Solution Application </li>
+                                      <li>● Installation and Configuration fee</li>
+                                      <li>● Annual Subscription Fee</li>
+                                      <li>● 1st Year – Free </li>
+                                      <li>● Sales and receipt printing Unlimited receipts per year</li>
+                                      <li>● Unlimited products</li>
+                                      <li>● Unlimited customer details </li>
+                                      <li>● Multi-users (Three users) </li>
+                                      <li>● Basic reporting</li>
+                                      <li>● Automatic Z-Report (Email - Option) </li>
+                                      <li>● Daily total sales summary SMS. </li>
+                                      <li>● Bluetooth Printer </li>
+                                      <li>● Receipts unlimited</li>
+                                      <li>● Mobile App access. </li>
+                                      <li>● Web App access</li>
+                                      <li>● Branches > 3. </li>
+                                     
+                                      <li>● License renew per year in each Branch </li>
+                                     
+                                      
+                                      <var><var></var></var>
+                                  </ul>
+                              <a href="" class="btn btn-black btn-sm btn-shadow"><img
+                                      src="assets/img/icons/btn-svg.svg" alt="" class="svg">buy now</a>
+                          </div>
+                      </div>
+                  </div>
+        
+                  <div class="col-xl-6 col-sm-6  portfolio-item filter-vsd">
+                      <div class="price-box active ">
+                          <div class="price-head">
+                           
+                              <div class="plan">
+                                  <h5>VSD Silver Plan</h5>
+                              </div>
+                          </div>
+                          <div class="price-body">
+                              <div class="price"><span class="currency"></span> <span class="value">500,000/=</span> <span
+                                  class="duration">/yrs</span></div>
+                              
+                              <ul >
+                                  <li>- Solution Application</li>
+                                  <li>- Installation, configuration and training fee </li>
+                                  <li>- Invoice 500 per year.</li>
+                                  <li>- Web App access</li>
+                                  <li>- Daily total sales summary SMS.</li>
+                                  <li>-License renew per year </li>  
+                                  
+                                  <var><var></var></var>
+                              </ul>
+                              <a href="" class="btn btn-black btn-sm btn-shadow"><img
+                                      src="assets/img/icons/btn-svg.svg" alt="" class="svg">buy now</a>
+                          </div>
+                      </div>
+                  </div>
+        
+                  
+        
+                  <div class="col-xl-6 col-sm-6  portfolio-item filter-vsd">
+                      <div class="price-box  active">
+                          <div class="price-head">
+                             
+                              <div class="plan">
+                                  <h5>VSD Gold Plan</h5>
+                              </div>
+                          </div>
+                          <div class="price-body">
+                              <div class="price"><span class="currency"></span> <span class="value">1,000,000/= </span> <span
+                                      class="duration">/yrs</span></div>
+                              
+                              <ul>
+                                  <li> - Solution Application.</li>
+                                  <li> - Installation, configuration and training fee </li>
+                                  <li> - Invoices Unlimited </li>
+                                  <li>  - Web App access. </li>
+                                  <li> - System API integration cost is depending customer requirement</li>
+                                  <li>- Daily total sales summary SMS</li>
+                                  <li>-License renew per year in each Branch </li>
+      
+                              </ul><a href="" class="btn btn-black btn-sm btn-shadow"><img
+                                      src="assets/img/icons/btn-svg.svg" alt="" class="svg">buy now</a>
+                          </div>
+                      </div>
+                  </div>
+        
                 </div>
-                
-                
-            </div>
-           
-        </div>
-    </section>
+        
+              </div>   
+                </div>
+               
+              </div>
+            
+            </section><!-- End Portfolio Section -->
+      
 
     <!-- **********END PRICING SECTION**************** -->
 
@@ -617,9 +727,15 @@
     <script src="assets/plugins/retinajs/retina.min.js"></script>
     <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="assets/plugins/countdown-timer/countdown.min.js"></script>
-    <script src="assets/js/main.js"></script>
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/scrollIt.js"></script>
+    <script src="assets/js/aos.js"></script>
+
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/pricing.js"></script>
+
 </body>
 
 
